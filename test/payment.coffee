@@ -3,11 +3,16 @@ _ = require 'lodash'
 Q = require 'q'
 
 payment = require('../src/payment') {
-  merchantcode: 112233
-  ip: 192.168.1.5
+  code: 112233
+  ip: "192.168.1.5"
 }
 
-describe 'payments', ->
-  it 'exist', ->
-    console.log fake test
+describe 'payment', ->
+  it 'should exist', ->
+    payment.should.exist
+
+  it 'should have merchant code and static IP'
+  it 'should be able to pay a fixed amount'
+  it 'should containt a transacton code after payment'
+  it 'should not work with wrong IP address'
 
