@@ -1,0 +1,25 @@
+{
+  "name": "payment-zp",
+  "version": "1.0.0",
+  "description": "This npm uses Zarinpals API",
+  "main": "src/main.coffee",
+  "scripts": {
+    "test": "NODE_ENV=test mocha --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seekasra/payment-zp.git"
+  },
+  "keywords": [
+    "payment",
+    "iranian",
+    "zarinpal",
+    "money"
+  ],
+  "author": "Kasra Kassai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seekasra/payment-zp/issues"
+  },
+  "homepage": "https://github.com/seekasra/payment-zp#readme"
+}
