@@ -2,9 +2,9 @@
   "name": "payment-zp",
   "version": "1.0.0",
   "description": "This npm uses Zarinpals API",
-  "main": "src/main.coffee",
+  "main": "src/payment.coffee",
   "scripts": {
-    "test": "NODE_ENV=test mocha --watch"
+    "test": "NODE_ENV=test mocha"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,8 @@
   },
   "dependencies": {
     "lodash": "^4.6.1",
-    "q": "^1.4.1"
+    "q": "^1.4.1",
+    "soap": "^0.13.0",
+    "xml2json": "^0.9.0"
   }
 }
